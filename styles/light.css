@@ -1,12 +1,35 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+ --main-text-color: #353430;
+  --text-color: var(--main-text-color);
+  --accent-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
+  --title-color: #ffc2e6;
+  --title-shadow: var(--accent-color);
+  --text-box-color: var(--accent-color);
+  --section-title-color: var(--main-text-color);
+  --hover-color: rgb(53, 52, 48, 40%);
+  --focus-color: var(--main-text-color);
+  --corner-color: var(--main-text-color);
+  --display-header-rec: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-text-color: #353430;
+    --text-color: var(--main-text-color);
+    --accent-color: #ff8dcb;
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
+    --title-color: #ffc2e6;
+    --title-shadow: var(--accent-color);
+    --text-box-color: var(--accent-color);
+    --section-title-color: var(--main-text-color);
+    --hover-color: rgb(53, 52, 48, 40%);
+    --focus-color: var(--main-text-color);
+    --corner-color: var(--main-text-color);
+    --display-header-rec: none;
+  }
 }
