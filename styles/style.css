@@ -1,5 +1,6 @@
 .page {
   background: var(--bg-color) center/cover fixed no-repeat var(--bg-image);
+  background-attachment: fixed;
 }
 
 .header {
@@ -83,6 +84,7 @@
 
 .header__theme-menu-button_active {
   outline: var(--focus-color) solid 1px;
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
