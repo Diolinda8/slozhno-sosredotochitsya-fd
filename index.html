@@ -3,20 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Сложно сосредоточиться</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
-    
-
-    <title>Сложно сосредоточиться</title>
   </head>
 
   <body class="page">
@@ -214,7 +212,7 @@
       </section>
 
       <section class="gallery">
-        <h3 class="item__title title-decor">А можно в картинках?</h3>
+        <h2 class="item__title title-decor">А можно в картинках?</h2>
         <div class="gallery__container">
           <picture class="gallery__image">
             <source srcset="./images/sunset.png" type="image/png" />
@@ -233,6 +231,7 @@
             <source srcset="./images/ice-cream.webp" type="image/webp" />
             <img
               src="./images/ice-cream.png"
+              loading="lazy"
               srcset="ice-cream.png 1x, ice-cream-2x.png 2x"
               alt="Антропоморфное мороженное в жёлтой улыбающейся чашке с маленьким зонтиком и довольным котиком по центру"
               class="gallery__image-item"
@@ -246,6 +245,7 @@
               srcset="tape.png 1x, tape-2x.png 2x"
               alt="Аудиокассета в сиреневых тонах"
               class="gallery__image-item"
+              loading="lazy"
             />
           </picture>
           <picture class="gallery__image">
@@ -256,6 +256,7 @@
               srcset="books.png 1x, books-2x.png 2x"
               alt="Стопка разноцветных, сложенных друг на друга, книг с розовой кружкой сверху"
               class="gallery__image-item"
+              loading="lazy"
             />
           </picture>
           <picture class="gallery__image">
