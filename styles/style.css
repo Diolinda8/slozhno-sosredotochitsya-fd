@@ -166,6 +166,7 @@
   color: var(--section-title-color);
   font-size: var(--font-size);
   font-family: var(--font-family);
+  font-size: 18px;
 }
 
 .section-causes__items__container {
