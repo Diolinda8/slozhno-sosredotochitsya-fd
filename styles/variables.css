@@ -14,7 +14,8 @@
   --hover-color: rgb(250, 0, 112, 40%);
   --focus-color: var(--accent-color);
   --article-title-color: var(--bg-color);
-  --font-size: "IBM Plex mono", 18px;
+  --font-size: 18px;
+  --font-family: "IBM Plex mono", monospace, "Arial, sans-serif";
   --header-padding: 10px;
   --display-header-rec: initial;
   --corner-color: var(--accent-color);
