@@ -32,10 +32,10 @@
 }
 
 .header__rec::after {
+  content: "";
   position: absolute;
   width: var(--item-gap);
   height: var(--item-gap);
-  content: "";
   margin: -5px -20px 0 0;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--rec-color);
@@ -279,8 +279,7 @@
   }
 
   .section {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
+    grid-template-columns: var(--section-rows);
   }
 
   .section-causes {
