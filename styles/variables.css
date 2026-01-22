@@ -15,7 +15,7 @@
   --focus-color: var(--accent-color);
   --article-title-color: var(--bg-color);
   --font-size: 18px;
-  --font-family: "IBM Plex mono", monospace, "Arial, sans-serif";
+  --font-family: 'IBM Plex mono', "Arial, sans-serif";
   --header-padding: 10px;
   --display-header-rec: initial;
   --corner-color: var(--accent-color);

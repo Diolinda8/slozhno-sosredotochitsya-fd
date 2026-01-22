@@ -22,7 +22,7 @@
 }
 
 .header__rec {
-  font-family: "IBM Plex mono", "Arial, sans-serif";
+  font-family: "IBM Plex mono", "Arial", "sans-serif";
   position: absolute;
   color: var(--rec-color);
   text-transform: uppercase;
@@ -72,12 +72,13 @@
   display: flex;
   justify-content: end;
   align-items: center;
+  align-self: flex-start;
 }
 
 .header__theme-menu-button {
   color: var(--section-title-color);
   font-size: 18px;
-  font-family: "IBM Plex mono", "Arial, sans-serif";
+  font-family: "IBM Plex mono", "Arial", "sans-serif";
   font-weight: 400;
   border: none;
   border-bottom: 1px solid transparent;
